@@ -1,0 +1,7 @@
+app/code/local/MaxVision/Customoptionsedit/                     app/code/local/MaxVision/Customoptionsedit/
+app/etc/modules/MaxVision_Customoptionsedit.xml                 app/etc/modules/MaxVision_Customoptionsedit.xml
+app/design/adminhtml/default/default/layout/maxvision/          app/design/adminhtml/default/default/layout/maxvision/
+app/design/adminhtml/default/default/template/maxvision/        app/design/adminhtml/default/default/template/maxvision/
+js/maxvision/customoptionsedit/adminhtml/                       js/maxvision/customoptionsedit/adminhtml/
+skin/adminhtml/default/default/maxvision/                       skin/adminhtml/default/default/maxvision/
+

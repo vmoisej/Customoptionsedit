@@ -1,0 +1,4 @@
+<?php
+class MaxVision_Customoptionsedit_Block_Adminhtml_Configure extends Mage_Adminhtml_Block_Widget_Form
+{
+}

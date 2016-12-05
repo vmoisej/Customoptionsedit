@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <adminhtml_sales_order_view>
+        <reference name="head">
+            <action method="addCss" ifconfig="maxvision_customoptionsedit/customoptions_setting/enabled"><name>maxvision/customoptionsedit.css</name></action>
+            <action method="addJs" ifconfig="maxvision_customoptionsedit/customoptions_setting/enabled"><file>maxvision/customoptionsedit/adminhtml/customoptionsedit.js</file></action>
+            <action method="addJs" ifconfig="maxvision_customoptionsedit/customoptions_setting/enabled"><file>mage/adminhtml/product/composite/configure.js</file></action>
+            <action method="addJs" ifconfig="maxvision_customoptionsedit/customoptions_setting/enabled"><file>varien/configurable.js</file></action>
+        </reference>
+        <reference name="content">
+            <block type="customoptionsedit/adminhtml_configure" name="view.composite" template="maxvision/customoptionsedit/configure.phtml"></block>
+        </reference>
+        <reference name="js">
+            <block type="adminhtml/template" template="maxvision/customoptionsedit/js.phtml" name="max.js" />
+        </reference>
+
+        <reference name="order_tab_info">
+            <block type="customoptionsedit/adminhtml_sales_order_view_items" name="order_items" template="maxvision/customoptionsedit/sales/order/view/items.phtml">
+                <action method="addItemRender"><type>default</type><block>adminhtml/sales_order_view_items_renderer_default</block><template>maxvision/customoptionsedit/sales/order/view/items/renderer/defaultform.phtml</template></action>
+            </block>
+        </reference>
+    </adminhtml_sales_order_view>
+    <ADMINHTML_CATALOG_PRODUCT_COMPOSITE_CONFIGURE>
+        <block type="adminhtml/catalog_product_composite_fieldset" name="product.composite.fieldset" output="toHtml">
+            <block name="product.composite.fieldset.options" type="adminhtml/catalog_product_composite_fieldset_options" template="catalog/product/composite/fieldset/options.phtml">
+                <action method="addOptionRenderer"><type>text</type><block>catalog/product_view_options_type_text</block><template>maxvision/customoptionsedit/catalog/product/composite/fieldset/options/type/text.phtml</template></action>
+                <action method="addOptionRenderer"><type>file</type><block>catalog/product_view_options_type_file</block><template>maxvision/customoptionsedit/catalog/product/composite/fieldset/options/type/file.phtml</template></action>
+                <action method="addOptionRenderer"><type>select</type><block>customoptionsedit/catalog_product_view_options_type_select</block><template>maxvision/customoptionsedit/catalog/product/composite/fieldset/options/type/select.phtml</template></action>
+                <action method="addOptionRenderer"><type>date</type><block>catalog/product_view_options_type_date</block><template>maxvision/customoptionsedit/catalog/product/composite/fieldset/options/type/date.phtml</template></action>
+                <block type="core/template" name="product.composite.fieldset.options.js" as="options_js" template="catalog/product/composite/fieldset/options/js.phtml"/>
+            </block>
+            <block type="adminhtml/catalog_product_composite_fieldset_qty" name="product.composite.fieldset.qty" template="maxvision/customoptionsedit/catalog/product/composite/fieldset/qty.phtml"/>
+        </block>
+    </ADMINHTML_CATALOG_PRODUCT_COMPOSITE_CONFIGURE>
+
+</layout>

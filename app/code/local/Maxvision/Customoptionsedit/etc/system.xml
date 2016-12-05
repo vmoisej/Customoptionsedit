@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <maxvision translate="label">
+            <label><![CDATA[<div style="background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAAAUCAYAAABvecQxAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OEJBQTEzQjc1MkM0MTFFNDg1QjdBOTMzOTg0RkRGQUMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OEJBQTEzQjg1MkM0MTFFNDg1QjdBOTMzOTg0RkRGQUMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4QkFBMTNCNTUyQzQxMUU0ODVCN0E5MzM5ODRGREZBQyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4QkFBMTNCNjUyQzQxMUU0ODVCN0E5MzM5ODRGREZBQyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvVTP9cAAAjVSURBVHja7FoJcFXV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) no-repeat 0 0;" width: 155px; height:20px;">&nbsp;</div>]]>
+            </label>
+            <sort_order>1</sort_order>
+        </maxvision>
+    </tabs>
+    <sections>
+        <maxvision_customoptionsedit translate="label">
+            <class>separator-top</class>
+            <label>Custom Options Edit</label>
+            <tab>maxvision</tab>
+            <sort_order>1</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <customoptions_setting translate="label">
+                    <label>Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enabled translate="label comment">
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enabled>
+                        <orderhistory translate="label comment">
+                            <label>Add Notice to Order History</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Adding notice to Order History when the Custom Options was modified.</comment>
+                        </orderhistory>
+                    </fields>
+                </customoptions_setting>
+            </groups>
+        </maxvision_customoptionsedit>
+    </sections>
+</config>
